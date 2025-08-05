@@ -297,7 +297,7 @@ Este proyecto está bajo la Licencia ISC.
 
 ## 👨‍💻 Autor
 
-Desarrollado como proyecto educativo para aprender el stack MERN.
+Desarrollado pro Isaias hernandez gomez como proyecto educativo para aprender el stack MERN.
 
 ---
 
