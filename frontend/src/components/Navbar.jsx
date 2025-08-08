@@ -4,10 +4,12 @@ import { Container, HStack, Button } from "@chakra-ui/react"
 import { PlusSquareIcon } from "@chakra-ui/icons"
 import { IoMoon } from "react-icons/io5"
 import { LuSun } from "react-icons/lu"
+import { useProductStore } from "../store/produc"
 
 
 const Navbar = () => {
     const { colorMode, toggleColorMode } = useColorMode();
+    const { products } = useProductStore();
     return (
         <Container maxW={"1140px"} py={4} boxShadow={"md"} borderRadius={"md"}>
             <Flex h={16} alignItems={"center"} justifyContent={"space-between"} flexDir={{ base: "column", md: "row" }}>
